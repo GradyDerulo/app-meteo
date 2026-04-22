@@ -4,12 +4,14 @@ import { auth } from "@/firebase/config";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import Link from "next/link";
 
+
 export default function RegisterPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+
 
   const handleRegister = async (e) => {
     e.preventDefault();
@@ -22,7 +24,7 @@ export default function RegisterPage() {
       await createUserWithEmailAndPassword(auth, email, password);
       setSuccessMessage("Compte créé avec succès ! Redirection en cours...");
       
-      // ✅ Réinitialiser les champs
+      // ✅ reset
       setEmail("");
       setPassword("");
     } catch (error) {
