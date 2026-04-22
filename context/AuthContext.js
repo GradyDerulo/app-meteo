@@ -32,6 +32,7 @@ export const AuthProvider = ({ children }) => {
     isAuthenticated: !!user,
   };
 
+
   // ✅ Écran de chargement global
   if (loading) {
     return (
