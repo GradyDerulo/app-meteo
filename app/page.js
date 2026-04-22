@@ -6,6 +6,8 @@ import { useAuth } from "@/context/AuthContext";
 import { db } from "@/firebase/config";
 import { collection, onSnapshot, doc, setDoc } from "firebase/firestore";
 
+
+
 export default function Home() {
   const { user } = useAuth();
   const [city, setCity] = useState("");
