@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+☁️ WeatherPro - Application Météo Prédictive
 
-## Getting Started
+Une application web moderne permettant de consulter la météo en temps réel et de gérer ses villes favorites. Développée en 24h pour démontrer une maîtrise de Next.js 14 et Firebase Auth.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Fonctionnalités 
+                Authentification sécurisée : Inscription et connexion via Firebase.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+                Protection des routes : AuthGuard personnalisé pour sécuriser le Dashboard.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+                Gestion d'état : Utilisation du Context API de React pour la session utilisateur.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Stack Technique
+                Framework : Next.js 14 (App Router)
+                Authentification : Firebase Auth
+                Styles : CSS Modules (pour une isolation parfaite des composants)
 
-## Learn More
+Pour tester le projet sur votre machine :
 
-To learn more about Next.js, take a look at the following resources:
+1. Cloner le dépôt : 
+                    git clone [TON_LIEN_GITHUB]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Installer les dépendances :
+                                npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Créer un fichier .env.local à la racine et ajouter vos clés Firebase
 
-## Deploy on Vercel
+NEXT_PUBLIC_FIREBASE_API_KEY=votre_cle_ici
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=votre_domaine_ici
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=votre_id_ici
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=votre_storage_bucket_ici
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=votre_messagin_sender_id_ici
+NEXT_PUBLIC_FIREBASE_APP_ID=1:971376503192:web:votre_id_app_id_ici
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+NEXT_PUBLIC_WEATHER_API_KEY=votre_cle_openweathermap
