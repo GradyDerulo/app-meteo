@@ -1,0 +1,30 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "titre": "Les 10 meilleurs jeux de l'année",
+      "contenu": "Donec tempus molestie nisl in euismod. Quisque vel tortor non mi pulvinar vestibulum. Donec a odio fringilla, lacinia quam eget, varius arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean facilisis ornare arcu maximus mattis. Nunc vitae nisi id turpis auctor malesuada in non dui. Nulla facilisi. Curabitur mattis est neque, tincidunt lobortis risus efficitur et. In vulputate molestie dolor, id tincidunt velit. Pellentesque porttitor est ut ultrices eleifend. Nulla vel suscipit nunc. Morbi ac feugiat urna. Quisque et rutrum eros. Morbi ullamcorper tortor in condimentum aliquet. Fusce vitae imperdiet metus.",
+      "auteur": "Jean Dupont",
+      "date": "2018-01-01",
+      "user_id": 1,
+      "lienImage": "perfil.png"
+    },
+    {
+      "id": "2",
+      "titre": "Les héros de l'année",
+      "contenu": "Donec tempus molestie nisl in euismod. Quisque vel tortor non mi pulvinar vestibulum. Donec a odio fringilla, lacinia quam eget, varius arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean facilisis ornare arcu maximus mattis. Nunc vitae nisi id turpis auctor malesuada in non dui. Nulla facilisi. Curabitur mattis est neque, tincidunt lobortis risus efficitur et. In vulputate molestie dolor, id tincidunt velit. Pellentesque porttitor est ut ultrices eleifend. Nulla vel suscipit nunc. Morbi ac feugiat urna. Quisque et rutrum eros. Morbi ullamcorper tortor in condimentum aliquet. Fusce vitae imperdiet metus.",
+      "auteur": "Jean Dupont",
+      "date": "2018-01-01",
+      "user_id": 1,
+      "lienImage": "perfil.png"
+    },
+    {
+      "id": "oVG3TaHCbaA",
+      "titre": "MESSI",
+      "contenu": "Meilleur joueur au monde.",
+      "auteur": "Messi",
+      "date": "2026-04-20T13:31:46.211Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

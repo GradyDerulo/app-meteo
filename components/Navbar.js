@@ -12,9 +12,10 @@ export default function Navbar() {
       console.error("Erreur de déconnexion:", error);
     }
   };
+  
   return (
     <nav className={styles.nav}>
-      <span className={styles.logo}>☁️ WeatherPro</span>
+      <span className={styles.logo}>☁️ MétéoPro</span>
       
       <div className={styles.userSection}>
         
